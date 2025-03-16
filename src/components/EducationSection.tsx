@@ -26,19 +26,19 @@ const EducationSection: React.FC = () => {
 
   const certifications = [
     {
-      title: "Data Analysis with Python",
-      issuer: "Data Science Academy",
+      title: "Full Stack Development",
+      issuer: "Coursera",
       date: "2023",
     },
     {
-      title: "SQL Database Management",
-      issuer: "Database Institute",
-      date: "2022",
+      title: "MongoDB Database Management",
+      issuer: "Infosys Springboard",
+      date: "2024",
     },
     {
-      title: "Data Visualization Fundamentals",
-      issuer: "Analytics Learning Platform",
-      date: "2023",
+      title: "Machine Learning",
+      issuer: "Skilldzire",
+      date: "2024",
     },
   ];
 
@@ -132,24 +132,24 @@ const EducationSection: React.FC = () => {
               <div className="glass-card p-6">
                 <h4 className="font-semibold mb-4 flex items-center">
                   <Award className="mr-2 h-5 w-5 text-primary" />
-                  Awards & Honors
+                  Achievements
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>Technical Competition Finalist (2023)</span>
+                    <span>Participated in Smart India Hackathon (SIH) 2024 - designed a safety device for women</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>Outstanding Student in Engineering Department (2023)</span>
+                    <span>Winner in spot essay writing competition</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>College Hackathon Winner (2022)</span>
+                    <span>Active contributor to college events and technical fests</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>Academic Excellence Scholarship</span>
+                    <span>Data Analysis Competition Finalist</span>
                   </li>
                 </ul>
               </div>
