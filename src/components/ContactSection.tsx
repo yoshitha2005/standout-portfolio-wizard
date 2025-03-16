@@ -50,8 +50,8 @@ const ContactSection: React.FC = () => {
     {
       icon: <Mail className="h-5 w-5 text-primary" />,
       title: "Email",
-      value: "johndoe@example.com",
-      link: "mailto:johndoe@example.com",
+      value: "yoshitha.k@example.com",
+      link: "mailto:yoshitha.k@example.com",
     },
     {
       icon: <Phone className="h-5 w-5 text-primary" />,

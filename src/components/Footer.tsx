@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="mailto:johndoe@example.com"
+                href="mailto:yoshitha.k@example.com"
                 className="bg-background p-2 rounded-full text-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
             </div>
 
             <p className="text-sm text-muted-foreground">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} Yoshitha Kothapalli. All rights reserved.
             </p>
           </div>
         </div>

@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
           </div>
           <h1 className="text-5xl md:text-7xl font-bold font-display mb-6 tracking-tight">
             <span className="block animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Hi, I'm <span className="text-primary">John Doe</span>
+              Hi, I'm <span className="text-primary">Yoshitha Kothapalli</span>
             </span>
             <span className="block animate-fade-in" style={{ animationDelay: "0.5s" }}>
               Creative Developer
