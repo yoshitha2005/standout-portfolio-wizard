@@ -7,20 +7,20 @@ import { GraduationCap, Award, Calendar } from "lucide-react";
 const EducationSection: React.FC = () => {
   const education = [
     {
-      degree: "BSc Computer Science",
-      institution: "University of Technology",
-      period: "2020 - Present",
+      degree: "BTech",
+      institution: "Sasi Institute of Technology and Engineering",
+      period: "2022 - Present",
       description:
-        "Specializing in Artificial Intelligence and Human-Computer Interaction with a focus on user experience design.",
-      achievements: ["GPA: 3.9/4.0", "Dean's List (All Semesters)", "Research Assistant"],
+        "Currently pursuing my Bachelor's degree in Technology with a focus on expanding my knowledge in various technical domains.",
+      achievements: ["Active participant in college technical events", "Member of coding club", "Participated in hackathons"],
     },
     {
-      degree: "High School Diploma",
-      institution: "Science Academy",
-      period: "2016 - 2020",
+      degree: "Intermediate in MPC",
+      institution: "Intermediate College",
+      period: "2020 - 2022",
       description:
-        "Advanced coursework in Mathematics, Physics, and Computer Science. Graduated with honors.",
-      achievements: ["Valedictorian", "National Math Competition Finalist", "Computer Science Club President"],
+        "Completed intermediate education with Mathematics, Physics, and Chemistry (MPC) specialization, building a strong foundation in STEM subjects.",
+      achievements: ["Excellent academic record", "Science project competitions", "Mathematics Olympiad participant"],
     },
   ];
 
@@ -137,19 +137,19 @@ const EducationSection: React.FC = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>Dean's List Scholar (2020-2023)</span>
+                    <span>Technical Competition Finalist (2023)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>Outstanding Student in Computer Science (2022)</span>
+                    <span>Outstanding Student in Engineering Department (2023)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>1st Place, University Hackathon (2021)</span>
+                    <span>College Hackathon Winner (2022)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
-                    <span>Merit Scholarship Recipient</span>
+                    <span>Academic Excellence Scholarship</span>
                   </li>
                 </ul>
               </div>
