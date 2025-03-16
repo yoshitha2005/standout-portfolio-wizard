@@ -11,33 +11,33 @@ const EducationSection: React.FC = () => {
       institution: "Sasi Institute of Technology and Engineering",
       period: "2022 - Present",
       description:
-        "Currently pursuing my Bachelor's degree in Technology with a focus on expanding my knowledge in various technical domains.",
-      achievements: ["Active participant in college technical events", "Member of coding club", "Participated in hackathons"],
+        "Currently pursuing my Bachelor's degree in Technology with a focus on data science and analytics, preparing for a career in data analysis.",
+      achievements: ["Active participant in data science competitions", "Member of coding club", "Participated in analytics hackathons"],
     },
     {
       degree: "Intermediate in MPC",
-      institution: "Intermediate College",
+      institution: "Sasi Junior College",
       period: "2020 - 2022",
       description:
-        "Completed intermediate education with Mathematics, Physics, and Chemistry (MPC) specialization, building a strong foundation in STEM subjects.",
-      achievements: ["Excellent academic record", "Science project competitions", "Mathematics Olympiad participant"],
+        "Completed intermediate education with Mathematics, Physics, and Chemistry (MPC) specialization, building a strong foundation in quantitative analysis and problem-solving.",
+      achievements: ["Excellent academic record", "Mathematics competitions", "Science project focused on data visualization"],
     },
   ];
 
   const certifications = [
     {
-      title: "Full-Stack Web Development",
-      issuer: "Tech Academy",
+      title: "Data Analysis with Python",
+      issuer: "Data Science Academy",
+      date: "2023",
+    },
+    {
+      title: "SQL Database Management",
+      issuer: "Database Institute",
       date: "2022",
     },
     {
-      title: "UX/UI Design Fundamentals",
-      issuer: "Design Institute",
-      date: "2021",
-    },
-    {
-      title: "Machine Learning Specialization",
-      issuer: "AI Learning Platform",
+      title: "Data Visualization Fundamentals",
+      issuer: "Analytics Learning Platform",
       date: "2023",
     },
   ];

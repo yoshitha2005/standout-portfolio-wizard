@@ -25,11 +25,11 @@ const HeroSection: React.FC = () => {
               Hi, I'm <span className="text-primary">Yoshitha Kothapalli</span>
             </span>
             <span className="block animate-fade-in" style={{ animationDelay: "0.5s" }}>
-              Creative Developer
+              Aspiring Data Analyst
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-10 animate-fade-in" style={{ animationDelay: "0.8s" }}>
-            I design and code beautifully simple things, and I love what I do.
+            I transform data into insights and solutions that drive informed decisions.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "1.1s" }}>
             <a href="#contact" className="btn-primary">

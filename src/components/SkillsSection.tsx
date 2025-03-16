@@ -2,70 +2,70 @@
 import React from "react";
 import SectionHeading from "./SectionHeading";
 import AnimatedCard from "./AnimatedCard";
-import { Code, Layout, Database, Server, Lightbulb, Layers } from "lucide-react";
+import { Code, Layout, Database, Server, Lightbulb, Layers, BarChart, Sigma } from "lucide-react";
 
 const SkillsSection: React.FC = () => {
   const skillCategories = [
     {
-      name: "Frontend Development",
-      icon: <Layout className="h-6 w-6 text-primary" />,
+      name: "Data Analysis",
+      icon: <BarChart className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "React", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "TypeScript", level: 80 },
-        { name: "Tailwind CSS", level: 85 },
+        { name: "Python for Data Analysis", level: 90 },
+        { name: "SQL & Database Management", level: 85 },
+        { name: "Statistical Analysis", level: 80 },
+        { name: "Data Visualization", level: 85 },
+        { name: "Excel Advanced Functions", level: 90 },
       ],
     },
     {
-      name: "Backend Development",
-      icon: <Server className="h-6 w-6 text-primary" />,
+      name: "Data Science",
+      icon: <Sigma className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "Node.js", level: 75 },
-        { name: "Python", level: 80 },
-        { name: "Express", level: 70 },
-        { name: "RESTful APIs", level: 85 },
-        { name: "GraphQL", level: 65 },
+        { name: "Machine Learning", level: 75 },
+        { name: "Predictive Modeling", level: 70 },
+        { name: "Data Cleaning", level: 85 },
+        { name: "Feature Engineering", level: 70 },
+        { name: "Data Storytelling", level: 80 },
       ],
     },
     {
-      name: "Database",
+      name: "Database Technologies",
       icon: <Database className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "MongoDB", level: 80 },
-        { name: "SQL", level: 75 },
-        { name: "Firebase", level: 70 },
-        { name: "Postgres", level: 65 },
+        { name: "SQL", level: 85 },
+        { name: "MongoDB", level: 75 },
+        { name: "Data Warehousing", level: 70 },
+        { name: "ETL Processes", level: 65 },
       ],
     },
     {
-      name: "Programming Languages",
+      name: "Programming",
       icon: <Code className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "JavaScript", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "Java", level: 70 },
-        { name: "C++", level: 60 },
+        { name: "Python", level: 90 },
+        { name: "R", level: 75 },
+        { name: "JavaScript", level: 70 },
+        { name: "Shell Scripting", level: 65 },
       ],
     },
     {
-      name: "Design",
+      name: "Visualization Tools",
       icon: <Layout className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "Figma", level: 85 },
-        { name: "Adobe XD", level: 75 },
-        { name: "Photoshop", level: 65 },
-        { name: "UI/UX Design", level: 80 },
+        { name: "Tableau", level: 85 },
+        { name: "Power BI", level: 80 },
+        { name: "Matplotlib/Seaborn", level: 85 },
+        { name: "D3.js", level: 65 },
       ],
     },
     {
-      name: "Other Skills",
+      name: "Soft Skills",
       icon: <Lightbulb className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "Git", level: 85 },
-        { name: "Agile/Scrum", level: 80 },
-        { name: "Problem Solving", level: 90 },
-        { name: "Technical Writing", level: 75 },
+        { name: "Critical Thinking", level: 90 },
+        { name: "Problem Solving", level: 85 },
+        { name: "Business Understanding", level: 80 },
+        { name: "Communication", level: 85 },
       ],
     },
   ];
@@ -79,8 +79,8 @@ const SkillsSection: React.FC = () => {
       <div className="section-container">
         <SectionHeading
           caption="Skills"
-          title="My Technical Expertise"
-          description="A comprehensive overview of my technical skills and competencies across various domains."
+          title="Data Analysis Toolkit"
+          description="A comprehensive overview of my technical skills and competencies across various data analysis domains."
           centered
         />
 
@@ -130,14 +130,14 @@ const SkillsSection: React.FC = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {[
               "Communication",
-              "Teamwork",
+              "Analytical Thinking",
               "Problem Solving",
               "Adaptability",
-              "Creativity",
-              "Time Management",
-              "Leadership",
-              "Critical Thinking",
               "Attention to Detail",
+              "Time Management",
+              "Business Acumen",
+              "Critical Thinking",
+              "Data Storytelling",
             ].map((skill, index) => (
               <div
                 key={index}
